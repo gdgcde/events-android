@@ -8,4 +8,6 @@ import android.app.Application;
  * Copyright 2017 GDG CDE. All rights reserved
  */
 public class JoinEventApplication extends Application {
+
+    public static final String API_URL = "gdgcde.herokuapp.com";
 }

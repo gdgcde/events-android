@@ -1,13 +1,20 @@
-package com.gdgcde;
+package com.gdgcde.ui.main;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+import com.gdgcde.R;
+import com.gdgcde.ui.base.BaseActivity;
+
+/**
+ * @author rorogarcete
+ * @version 0.0.1
+ * Copyright 2017 GDG Ciudad del Este
+ */
+public class MainActivity extends BaseActivity {
 
     private TextView mTextMessage;
 
